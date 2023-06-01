@@ -1,0 +1,25 @@
+body {
+    background-color: #0D0B25;
+}
+div.title, h3, div.buttons {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:antiquewhite;
+    margin-top: 100px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: #322C77;
+    color: antiquewhite;
+    border: #322C77;
+    border-radius: 5%;
+    font-size: medium;
+    margin-left: 15px;
+    margin-top: 15px;
+    transition: 1s;
+}
+button:hover {
+    transform: scale(1.2);
+}
